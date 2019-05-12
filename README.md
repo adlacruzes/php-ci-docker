@@ -32,6 +32,10 @@ Additional installations made to the base image:
     
     Composer parallel install plugin
 
+* **mysql-client** (https://mariadb.org based)
+    
+    CLI connection to mysql/mariadb
+
 ## Tags
 
 Available tags:

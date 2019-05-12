@@ -1,7 +1,7 @@
 FROM php:7.3-alpine
 
 RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
-    && apk add --no-cache git openssh-client ncurses gnupg libmcrypt-dev libxml2-dev \
+    && apk add --no-cache git openssh-client ncurses gnupg libmcrypt-dev libxml2-dev mysql-client \
     && docker-php-ext-install bcmath soap pdo_mysql \
     && pecl install xdebug mcrypt-1.0.2 && docker-php-ext-enable xdebug mcrypt \
     && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer \
