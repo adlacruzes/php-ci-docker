@@ -41,7 +41,10 @@ Additional installations made to the base image:
 Available tags:
 
 * 7.0
+* 7.1
+* 7.2
 * 7.3
+* 7.4
 
 ## Usage
 
