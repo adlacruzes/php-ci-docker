@@ -7,4 +7,5 @@ RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer \
     && wget -q -O /usr/local/bin/phive https://phar.io/releases/phive.phar && chmod +x /usr/local/bin/phive \
     && composer global require hirak/prestissimo \
-    && apk del .build-deps
+    && apk del .build-deps \
+    && cp "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"

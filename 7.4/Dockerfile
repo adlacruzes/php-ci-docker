@@ -11,4 +11,5 @@ RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && composer global require hirak/prestissimo \
     && apk del .build-deps .build-deps-xdebug \
     && echo 'zend_extension="xdebug.so"' >> /usr/local/etc/php/conf.d/xdebug.ini \
-    && echo 'extension="mcrypt.so"' > /usr/local/etc/php/conf.d/mcrypt.ini
+    && echo 'extension="mcrypt.so"' > /usr/local/etc/php/conf.d/mcrypt.ini \
+    && cp "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
