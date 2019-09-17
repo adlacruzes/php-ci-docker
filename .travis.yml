@@ -10,6 +10,9 @@ env:
   matrix:
     - TAG=7.0
     - TAG=7.1
+    - TAG=7.2
+    - TAG=7.3
+    - TAG=7.4
 
 jobs:
   include:
