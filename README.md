@@ -1,5 +1,8 @@
 # PHP CI Docker images
 
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg?style=flat-square)](https://php.net/)
+[![Build Status](https://travis-ci.org/adlacruzes/php-ci-docker.svg?branch=master)](https://travis-ci.org/adlacruzes/php-ci-docker)
+
 Docker images for PHP based on the [official PHP Alpine images](https://hub.docker.com/r/_/php/).
 
 These images contain the basic requirements for use with continuous integration in most projects.
