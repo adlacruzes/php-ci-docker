@@ -1,0 +1,6 @@
+env:
+  - CHECKS="php -v && composer --version && phive --version"
+jobs:
+  include:
+    - script: docker run -it adlacruzes/php-ci:7.0 sh -c "$CHECKS"
+    - script: docker run -it adlacruzes/php-ci:7.1 sh -c "$CHECKS"
