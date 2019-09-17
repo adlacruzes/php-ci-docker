@@ -1,3 +1,6 @@
+language:
+  - bash
+
 services:
   - docker
 
@@ -10,4 +13,5 @@ env:
 
 jobs:
   include:
-    - script: docker run -it adlacruzes/php-ci:$TAG sh -c "$CHECKS"
+    - stage: test
+      script: docker run -it adlacruzes/php-ci:$TAG sh -c "$CHECKS"
