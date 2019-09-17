@@ -1,6 +1,13 @@
+services:
+  - docker
+
 env:
-  - CHECKS="php -v && composer --version && phive --version"
+  global:
+    - CHECKS="php -v && composer --version && phive --version"
+  matrix:
+    - TAG=7.0
+    - TAG=7.1
+
 jobs:
   include:
-    - script: docker run -it adlacruzes/php-ci:7.0 sh -c "$CHECKS"
-    - script: docker run -it adlacruzes/php-ci:7.1 sh -c "$CHECKS"
+    - script: docker run -it adlacruzes/php-ci:$TAG sh -c "$CHECKS"
