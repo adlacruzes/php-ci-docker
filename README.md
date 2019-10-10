@@ -7,6 +7,17 @@ Docker images for PHP based on the [official PHP Alpine images](https://hub.dock
 
 These images contain the basic requirements for use with continuous integration in most projects.
 
+## Images
+
+|              | 7.0    | 7.1    | 7.2    | 7.3    | 7.4       |
+| :---:        | :---:  | :---:  | :---:  | :---:  | :---:     |
+| alpine       | 3.7.1  | 3.10.2 | 3.10.2 | 3.10.2 | 3.10.2    | 
+| php          | 7.0.33 | 7.1.32 | 7.2.23 | 7.3.10 | 7.4.0RC1  |
+| composer     | 1.9.0  | 1.9.0  | 1.9.0  | 1.9.0  | 1.9.0     |
+| git          | 2.5.13 | 2.22.0 | 2.22.0 | 2.22.0 | 2.22.0    |
+| phive        | 0.12.1 | 0.13.0 | 0.13.0 | 0.13.0 | 0.13.0    |
+| xdebug       | 2.7.2  | 2.7.2  | 2.7.2  | 2.7.2  | 3.0.0-dev |
+
 ## Overview
 
 Additional installations made to the base image:
