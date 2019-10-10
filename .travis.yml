@@ -6,7 +6,7 @@ services:
 
 env:
   global:
-    - CHECKS="php -v && composer --version && phive --version"
+    - CHECKS="php -v && composer --version && phive --version && git --version && cat /etc/alpine-release"
   matrix:
     - TAG=7.0
     - TAG=7.1
