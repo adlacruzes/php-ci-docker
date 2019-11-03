@@ -5,7 +5,7 @@ RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && docker-php-ext-install bcmath mcrypt soap pdo_mysql \
     && pecl install xdebug && docker-php-ext-enable xdebug \
     && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer --version=1.9.1 \
-    && wget -q -O /usr/local/bin/phive https://phar.io/releases/phive.phar && chmod +x /usr/local/bin/phive \
+    && wget -q -O /usr/local/bin/phive https://github.com/phar-io/phive/releases/download/0.13.2/phive-0.13.2.phar && chmod +x /usr/local/bin/phive \
     && composer global require hirak/prestissimo \
     && apk del .build-deps \
     && cp "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
