@@ -15,7 +15,7 @@ These images contain the basic requirements for use with continuous integration 
 | php          | 7.0.33 | 7.1.32 | 7.2.23 | 7.3.10 | 7.4.0RC1  |
 | composer     | 1.9.1  | 1.9.1  | 1.9.1  | 1.9.1  | 1.9.1     |
 | git          | 2.15.3 | 2.22.0 | 2.22.0 | 2.22.0 | 2.22.0    |
-| phive        | 0.12.1 | 0.13.0 | 0.13.0 | 0.13.0 | 0.13.0    |
+| phive        | 0.12.1 | 0.13.2 | 0.13.2 | 0.13.2 | 0.13.2    |
 | xdebug       | 2.7.2  | 2.7.2  | 2.7.2  | 2.7.2  | 3.0.0-dev |
 
 ## Overview
