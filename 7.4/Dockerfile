@@ -12,6 +12,6 @@ RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && apk del .build-deps .build-deps-xdebug \
     && echo 'zend_extension="xdebug.so"' >> /usr/local/etc/php/conf.d/xdebug.ini \
     && echo 'extension="mcrypt.so"' > /usr/local/etc/php/conf.d/mcrypt.ini \
-    && cp "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
+    && cp "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini" \
     && echo "alias ll='ls -l'" >> "$HOME/.profile" \
     && echo "export PS1='🐳 \[\033[1;36m\]\h \[\033[1;34m\]\w\[\033[0;35m\] \[\033[1;36m\]# \[\033[0m\]'" >> "$HOME/.profile"
