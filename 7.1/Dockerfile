@@ -9,3 +9,5 @@ RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && composer global require hirak/prestissimo \
     && apk del .build-deps \
     && cp "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
+    && echo "alias ll='ls -l'" >> "$HOME/.profile" \
+    && echo "export PS1='🐳 \[\033[1;36m\]\h \[\033[1;34m\]\w\[\033[0;35m\] \[\033[1;36m\]# \[\033[0m\]'" >> "$HOME/.profile"
