@@ -16,7 +16,7 @@ These images contain the basic requirements for use with continuous integration 
 | composer     | 1.9.1  | 1.9.1  | 1.9.1  | 1.9.1  | 1.9.1     |
 | git          | 2.15.3 | 2.22.0 | 2.22.0 | 2.22.0 | 2.22.0    |
 | phive        | 0.12.1 | 0.13.2 | 0.13.2 | 0.13.2 | 0.13.2    |
-| xdebug       | 2.8.0  | 2.8.0  | 2.8.0  | 2.8.0  | 3.0.0-dev |
+| xdebug       | 2.8.0  | 2.8.0  | 2.8.0  | 2.8.0  | 2.8.0     |
 
 ## Overview
 
