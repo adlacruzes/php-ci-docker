@@ -3,7 +3,7 @@ FROM php:7.1.33-alpine3.10
 RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && apk add --no-cache git openssh-client ncurses gnupg libmcrypt-dev libxml2-dev mysql-client mariadb-connector-c \
     && docker-php-ext-install bcmath mcrypt soap pdo_mysql \
-    && pecl install xdebug-2.9.5 && docker-php-ext-enable xdebug \
+    && pecl install xdebug-2.9.6 && docker-php-ext-enable xdebug \
     && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer --version=1.10.6 \
     && wget -q -O /usr/local/bin/phive https://github.com/phar-io/phive/releases/download/0.13.2/phive-0.13.2.phar && chmod +x /usr/local/bin/phive \
     && composer global require hirak/prestissimo \
