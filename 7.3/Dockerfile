@@ -4,7 +4,7 @@ RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && apk add --no-cache git openssh-client ncurses gnupg libmcrypt-dev libxml2-dev mysql-client mariadb-connector-c \
     && docker-php-ext-install bcmath soap pdo_mysql \
     && pecl install xdebug-2.9.6 mcrypt-1.0.3 && docker-php-ext-enable xdebug mcrypt \
-    && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer --version=1.10.8 \
+    && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer --version=1.10.9 \
     && wget -q -O /usr/local/bin/phive https://github.com/phar-io/phive/releases/download/0.13.2/phive-0.13.2.phar && chmod +x /usr/local/bin/phive \
     && composer global require hirak/prestissimo \
     && apk del .build-deps \
