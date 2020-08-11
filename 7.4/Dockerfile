@@ -1,4 +1,4 @@
-FROM php:7.4.8-alpine3.12
+FROM php:7.4.9-alpine3.12
 
 RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && apk add --no-cache git openssh-client ncurses gnupg libmcrypt-dev libxml2-dev mysql-client mariadb-connector-c \
