@@ -1,8 +1,8 @@
 FROM php:7.4.13-alpine3.12
 
 RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
-    && apk add --no-cache git openssh-client ncurses gnupg libmcrypt-dev libxml2-dev mysql-client mariadb-connector-c \
-    && docker-php-ext-install bcmath soap pdo_mysql \
+    && apk add --no-cache git openssh-client ncurses gnupg libmcrypt-dev libxml2-dev libzip-dev mysql-client mariadb-connector-c \
+    && docker-php-ext-install zip bcmath soap pdo_mysql \
     && apk add --no-cache --virtual .build-deps-xdebug autoconf gcc libc-dev make \
     && pecl install xdebug-3.0.1 mcrypt-1.0.3 && docker-php-ext-enable xdebug mcrypt \
     && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer --version=1.10.19 \
