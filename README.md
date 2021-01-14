@@ -18,7 +18,7 @@ These images contain the basic requirements for use with continuous integration 
 | 7.2 | 3.12   | 7.2.34 | 1.10.19  | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.2?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.2?style=square)
 | 7.3 | 3.12   | 7.3.26 | 1.10.19  | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.3?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.3?style=square)
 | 7.4 | 3.12   | 7.4.14 | 1.10.19  | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.4?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.4?style=square)
-| 8.0 | 3.12   | 8.0.0  | 1.10.19  | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.0?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/8.0?style=square)
+| 8.0 | 3.12   | 8.0.1  | 1.10.19  | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.0?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/8.0?style=square)
 
 ## Overview
 
