@@ -44,10 +44,6 @@ Additional installations made to the base image:
     
     Debugger
 
-* **prestissimo** (https://github.com/hirak/prestissimo) 
-    
-    Composer parallel install plugin
-
 * **mysql-client** (https://mariadb.org based)
     
     CLI connection to mysql/mariadb
