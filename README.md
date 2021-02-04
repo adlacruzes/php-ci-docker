@@ -13,12 +13,12 @@ These images contain the basic requirements for use with continuous integration 
 
 |     | alpine | php    | composer | phive  | xdebug | size                                                                | layers
 | --- | :---:  | :---:  | :---:    | :---:  | :---:  | :---:                                                               | :---:
-| 7.0 | 3.7    | 7.0.33 | 1.10.20  | 0.12.1 | 2.7.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.0?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.0?style=square)
-| 7.1 | 3.10   | 7.1.33 | 1.10.20  | 0.13.5 | 2.9.8  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.1?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.1?style=square)
-| 7.2 | 3.12   | 7.2.34 | 1.10.20  | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.2?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.2?style=square)
-| 7.3 | 3.12   | 7.3.26 | 1.10.20  | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.3?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.3?style=square)
-| 7.4 | 3.12   | 7.4.14 | 1.10.20  | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.4?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.4?style=square)
-| 8.0 | 3.12   | 8.0.1  | 1.10.20  | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.0?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/8.0?style=square)
+| 7.0 | 3.7    | 7.0.33 | 2.0.9 | 0.12.1 | 2.7.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.0?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.0?style=square)
+| 7.1 | 3.10   | 7.1.33 | 2.0.9 | 0.13.5 | 2.9.8  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.1?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.1?style=square)
+| 7.2 | 3.12   | 7.2.34 | 2.0.9 | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.2?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.2?style=square)
+| 7.3 | 3.12   | 7.3.26 | 2.0.9 | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.3?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.3?style=square)
+| 7.4 | 3.12   | 7.4.14 | 2.0.9 | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.4?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/7.4?style=square)
+| 8.0 | 3.12   | 8.0.1  | 2.0.9 | 0.14.5 | 3.0.2  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.0?style=square) | ![](https://img.shields.io/microbadger/layers/adlacruzes/php-ci/8.0?style=square)
 
 ## Overview
 
