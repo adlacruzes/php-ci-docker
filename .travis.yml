@@ -13,5 +13,6 @@ env:
     - TAG=7.2
     - TAG=7.3
     - TAG=7.4
+    - TAG=8.0
 
 script: docker run -it adlacruzes/php-ci:$TAG sh -c "$CHECKS"
