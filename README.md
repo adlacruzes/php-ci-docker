@@ -18,7 +18,7 @@ These images contain the basic requirements for use with continuous integration 
 | 7.2 | 3.12   | 7.2.34 | 2.0.9 | 0.14.5 | 3.0.3  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.2?style=square)
 | 7.3 | 3.13   | 7.3.27 | 2.0.9 | 0.14.5 | 3.0.3  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.3?style=square)
 | 7.4 | 3.13   | 7.4.16 | 2.0.9 | 0.14.5 | 3.0.3  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.4?style=square)
-| 8.0 | 3.13   | 8.0.2  | 2.0.9 | 0.14.5 | 3.0.3  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.0?style=square)
+| 8.0 | 3.13   | 8.0.3  | 2.0.9 | 0.14.5 | 3.0.3  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.0?style=square)
 
 ## Overview
 
