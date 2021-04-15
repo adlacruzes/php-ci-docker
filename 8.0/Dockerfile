@@ -3,7 +3,7 @@ FROM php:8.0.3-alpine3.13
 RUN apk --update add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && apk add --no-cache git openssh-client ncurses gnupg libmcrypt-dev libxml2-dev libzip-dev mysql-client mariadb-connector-c \
     && docker-php-ext-install zip bcmath soap pdo_mysql \
-    && pecl install xdebug-3.0.3 mcrypt-1.0.4 && docker-php-ext-enable xdebug mcrypt \
+    && pecl install xdebug-3.0.4 mcrypt-1.0.4 && docker-php-ext-enable xdebug mcrypt \
     && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer --version=2.0.11 \
     && wget -q -O /usr/local/bin/phive https://github.com/phar-io/phive/releases/download/0.14.5/phive-0.14.5.phar && chmod +x /usr/local/bin/phive \
     && apk del .build-deps \
