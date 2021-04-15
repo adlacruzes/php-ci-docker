@@ -1,7 +1,6 @@
 # PHP CI Docker images
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg?style=square)](https://php.net/)
-[![Build Status](https://travis-ci.org/adlacruzes/php-ci-docker.svg?branch=master)](https://travis-ci.org/adlacruzes/php-ci-docker)
 [![Docker pulls](https://img.shields.io/docker/pulls/adlacruzes/php-ci?style=square)](https://hub.docker.com/r/adlacruzes/php-ci)
 [![Docker build status](https://img.shields.io/docker/cloud/build/adlacruzes/php-ci?style=square)](https://hub.docker.com/r/adlacruzes/php-ci/builds)
 
