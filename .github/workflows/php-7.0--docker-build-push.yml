@@ -39,4 +39,4 @@ jobs:
         with:
           context: ${{ matrix.tags }}
           push: true
-          tags: adlacruzes/php-ci:${{ matrix.tags }}
+          tags: adlacruzes/${{ secrets.DOCKERHUB_REPOSITORY }}:${{ matrix.tags }}
