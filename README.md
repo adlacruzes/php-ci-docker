@@ -20,35 +20,6 @@ These images contain the basic requirements for use with continuous integration 
 | 8.0 | 3.13   | 8.0.12 | 2.1.6 | 0.15.0 | 3.0.4  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.0?style=square)
 | 8.1 | 3.14   | 8.1.0RC5 | 2.1.6 | 0.15.0 | 3.1.1  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.1?style=square)
 
-
-## Overview
-
-Additional installations made to the base image:
-
-* **git** (https://git-scm.com) 
-    
-    Version control system
-
-* **composer** (https://getcomposer.org) 
-    
-    Dependency manager
-
-* **phive** (https://phar.io) 
-    
-    Phar installation manager
-
-* **mcrypt** (https://pecl.php.net/package/mcrypt) 
-    
-    Encryption library (legacy purposes only)
-
-* **xdebug** (https://xdebug.org) 
-    
-    Debugger
-
-* **mysql-client** (https://mariadb.org based)
-    
-    CLI connection to mysql/mariadb
-
 ## Tags
 
 Available tags:
