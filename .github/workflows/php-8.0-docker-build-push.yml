@@ -1,4 +1,4 @@
-name: "PHP 8.0 - Docker build and push"
+name: "PHP 8.0 - Build"
 
 on:
   push:
