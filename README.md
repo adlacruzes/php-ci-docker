@@ -18,7 +18,8 @@ These images contain the basic requirements for use with continuous integration 
 | 7.4 |  3.15  | 7.4.30 |  2.3.7   | 0.15.0 | 3.1.5  | ![Github actions](https://github.com/adlacruzes/php-ci-docker/actions/workflows/php-7.4-docker-build-push.yml/badge.svg?branch=master)  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/7.4?style=square) |
 | 8.0 |  3.15  | 8.0.21 |  2.3.7   | 0.15.0 | 3.1.5  | ![Github actions](https://github.com/adlacruzes/php-ci-docker/actions/workflows/php-8.0-docker-build-push.yml/badge.svg?branch=master)  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.0?style=square) |
 | 8.1 |  3.15  | 8.1.8  |  2.3.7   | 0.15.0 | 3.1.5  | ![Github actions](https://github.com/adlacruzes/php-ci-docker/actions/workflows/php-8.1-docker-build-push.yml/badge.svg?branch=master)  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.1?style=square) |
-| 8.1 |  3.17  | 8.2.0  |  2.3.7   | 0.15.0 | 3.2.0  | ![Github actions](https://github.com/adlacruzes/php-ci-docker/actions/workflows/php-8.1-docker-build-push.yml/badge.svg?branch=master)  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.1?style=square) |
+| 8.2 |  3.17  | 8.2.0  |  2.3.7   | 0.15.0 | 3.2.0  | ![Github actions](https://github.com/adlacruzes/php-ci-docker/actions/workflows/php-8.2-docker-build-push.yml/badge.svg?branch=master)  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.2?style=square) |
+| 8.3 |  3.19  | 8.3.1  |  2.6.6   | 0.15.2 | 3.3.1  | ![Github actions](https://github.com/adlacruzes/php-ci-docker/actions/workflows/php-8.3-docker-build-push.yml/badge.svg?branch=master)  | ![](https://img.shields.io/docker/image-size/adlacruzes/php-ci/8.3?style=square) |
 ## Tags
 
 Available tags:
@@ -31,6 +32,7 @@ Available tags:
 * 8.0
 * 8.1
 * 8.2
+* 8.3
 
 ## Usage
 
